@@ -1,3 +1,4 @@
+//Selection sort
 public class sort2 { 
   public static void selectionSort(int nums[]){
     for(int i=0;i<nums.length-1;i++){
