@@ -1,4 +1,4 @@
-//SPIRAL MATRIX
+//SPIRAL MATRIX - print all elements in spiral fashion
 public class arr5 {
   public static void printSpiralMatrix(int matrix[][]){
     int startRow=0;
