@@ -1,4 +1,4 @@
-//Getters and setters
+//Getters and setters were added
 public class Oops2 {
   public static void main(String args[]){
     Pen1 p1 = new Pen1();
