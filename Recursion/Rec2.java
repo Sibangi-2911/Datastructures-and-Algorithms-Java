@@ -1,4 +1,4 @@
-//print numbers from 1 to 5
+//code to print numbers from 1 to 5
 public class Rec2 {
   public static void printInc(int n){
     if(n==1){
