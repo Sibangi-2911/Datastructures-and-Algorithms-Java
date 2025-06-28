@@ -1,4 +1,4 @@
-//print factorial of a number
+//code to print factorial of a number
 public class Rec3 {
   public static int printFac(int n){
     if(n==0){
