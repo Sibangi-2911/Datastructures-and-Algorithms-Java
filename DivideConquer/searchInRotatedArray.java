@@ -1,4 +1,4 @@
-//search in rotataed sorted array
+//search  element in rotataed sorted array
 public class searchInRotatedArray {
   public static int Search(int arr[], int target, int si, int ei){
     //base case
