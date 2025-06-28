@@ -1,4 +1,4 @@
-//Print sum of first n natural numbers
+//code to Print sum of first n natural numbers
 public class Rec4 {
   public static int printSum(int n){
     if(n==1){
