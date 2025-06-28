@@ -1,4 +1,4 @@
-//quick sort
+//quick sort code
 public class quick {
   public static void printArray(int arr[]){
     for(int i=0;i<arr.length;i++){
