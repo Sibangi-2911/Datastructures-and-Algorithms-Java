@@ -1,4 +1,4 @@
-// print numbers from 10 to 1
+// code to print numbers from 10 to 1
 public class Rec1 {
   public static void printDec(int n){
     if(n==1){
