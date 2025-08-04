@@ -25,6 +25,7 @@ public class back4 {
     //base case
     if(row==board.length){
       printBoard(board);
+      count++;
       return;
     }
     //colummn call
@@ -45,8 +46,10 @@ public class back4 {
       System.out.println();
     }
   }
+
+  static int count =0;
   public static void main(String args[]){
-    int n = 4;
+    int n = 2;
     char board[][] = new char[n][n];
     //Initialization
     for(int i=0;i<board.length;i++){
@@ -55,6 +58,7 @@ public class back4 {
       }
     }
     nQueens(board,0);
+    System.out.println("No. of solutions are "+count);
   }
 }
   
