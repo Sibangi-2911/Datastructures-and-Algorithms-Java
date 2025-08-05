@@ -1,5 +1,4 @@
 //check if nqueens problem can be solved and print only 1 solution
-//nQueens on a nXn chessboard so theat no 2 queens attack eachother(All solutions)
 public class back5 {
   public static boolean isSafe(char board[][], int row, int col){
     //vertical-up
