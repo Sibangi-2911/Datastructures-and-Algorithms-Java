@@ -12,10 +12,13 @@ public class link1 {
   }
   public static  Node head;
   public static Node tail;
+  public static int size;
 
   public void addFirst(int data){
     //create new node
     Node newNode = new Node(data);
+
+    size++;
 
     if(head == null){
       head = tail = newNode;
@@ -31,6 +34,7 @@ public class link1 {
   
   public void addLast(int data){
     Node newNode = new Node(data);
+    size++;
     if(head==null){
       head=tail=newNode;
       return;
@@ -44,6 +48,7 @@ public class link1 {
       return;
     }
     Node newNode = new Node(data);
+    size++;
     Node temp = head;
     int i=0;
     while(i<index-1 && temp!=null){
@@ -79,5 +84,6 @@ public class link1 {
     ll.print();
     ll.add(2, 9);
     ll.print();
+    System.out.println(ll.size);
   }
 }
