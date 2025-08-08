@@ -10,7 +10,7 @@ public class link1 {
       this.next = null;
     }
   }
-  public static Node head;
+  public static  Node head;
   public static Node tail;
 
   public void addFirst(int data){
@@ -38,6 +38,21 @@ public class link1 {
     tail.next = newNode;
     tail=newNode;
   }
+  public void add(int index, int data){
+    if(index==0){
+      addFirst(data);
+      return;
+    }
+    Node newNode = new Node(data);
+    Node temp = head;
+    int i=0;
+    while(i<index-1 && temp!=null){
+      temp = temp.next;
+      i++;
+    }
+    newNode.next = temp.next;
+    temp.next = newNode;
+  }
 
   public void print(){
     if(head==null){
@@ -61,6 +76,8 @@ public class link1 {
     ll.addLast(3);
     ll.print();
     ll.addLast(4);
+    ll.print();
+    ll.add(2, 9);
     ll.print();
   }
 }
