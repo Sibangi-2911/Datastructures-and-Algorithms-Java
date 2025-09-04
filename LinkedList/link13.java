@@ -35,7 +35,27 @@ public class link13 {
     }
     System.out.println("null");
   }
-  //remove last
+
+  //remove first
+  public int removeFirst(){
+    if(head==null){
+      System.out.println("DLL is empty");
+      return Integer.MIN_VALUE;
+    }
+    if(size==1){
+      int val = head.data;
+      head = head.next;
+      head = tail = null;
+      size--;
+      return val;
+    }
+    int val = head.data;
+    head = head.next;
+    head.prev = null;
+    size--;
+    return val;
+  }
+
   public static void main(String args[]){
     link13 dll = new link13();
     dll.addFirst(3);
@@ -43,6 +63,15 @@ public class link13 {
     dll.addFirst(1);
     dll.print();
     System.out.println(dll.size);
+
+    dll.removeFirst();
+    dll.print();
+    System.out.println(dll.size);
+
+    dll.removeFirst();
+    dll.print();
+    System.out.println(dll.size);
+
 
   }
 }
