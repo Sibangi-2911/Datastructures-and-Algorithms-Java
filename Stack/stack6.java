@@ -1,4 +1,4 @@
-//reverse a stack
+//code to reverse a stack
 import java.util.*;
 public class stack6 {
   public static void pushAtBottom(Stack<Integer> s, int data){
