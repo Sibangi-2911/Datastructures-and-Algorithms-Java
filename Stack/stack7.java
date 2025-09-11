@@ -1,4 +1,4 @@
-//Stock Span Problem
+//code for Stock Span Problem
 import java.util.*;
 public class stack7 {
   public static void stockSpan(int stocks[], int span[]){
