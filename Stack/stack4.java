@@ -1,4 +1,4 @@
-//push at the bottom of the stack
+//code to push  element at the bottom of the stack
 import java.util.*;
 public class stack4 {
   public static void pushAtBottom(Stack<Integer> s, int data){
