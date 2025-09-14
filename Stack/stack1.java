@@ -1,4 +1,4 @@
-//Implementing stack using arraylist
+//code for implementing stack using arraylist
 import java.util.*;
 public class stack1{
   static class Stack{
