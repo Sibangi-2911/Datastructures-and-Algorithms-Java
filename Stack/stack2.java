@@ -1,4 +1,4 @@
-//Implementation of stack using linked list
+//code for implementation of stack using linked list
 public class stack2 {
   static class Node{
     int data;
