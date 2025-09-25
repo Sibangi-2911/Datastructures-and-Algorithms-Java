@@ -11,15 +11,12 @@ public class stack10 {
             // closing
             if (ch == ')') {
                 int count = 0;
-                while (s.peek() != '(') {
-                    s.pop();
+                while (s.pop() != '(') {
                     count++;
                 }
                 if (count < 1) {
                     return true; // duplicate
-                } else {
-                    s.pop(); // remove '('
-                }
+                } 
             } else {
                 s.push(ch);
             }
