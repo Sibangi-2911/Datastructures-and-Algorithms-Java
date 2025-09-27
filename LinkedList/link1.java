@@ -1,3 +1,4 @@
+//creation of linked list with its operations
 import java.util.*;
 
 public class link1 {
