@@ -1,4 +1,4 @@
-//Maximum rectangular area in histogram
+//Code to find Maximum rectangular area in histogram
 import java.util.*;
 public class stack11 {
   public static void maxArea(int arr[]){
