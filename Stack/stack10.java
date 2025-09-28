@@ -1,4 +1,4 @@
-//Duplicate Parentheses Code with valid string
+//Code to Duplicate Parentheses Code with valid string
 import java.util.*;
 
 public class stack10 {
