@@ -1,4 +1,4 @@
-//reverse a string using a stack
+//code to reverse a string using a stack
 import java.util.*;
 public class stack5 {
   public static String reverseString(String str){
