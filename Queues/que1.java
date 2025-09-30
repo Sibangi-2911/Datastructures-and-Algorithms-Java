@@ -1,4 +1,4 @@
-//Implementation of Queue using array
+//code for Implementation of Queue using array
 public class que1 {
   static class Queue{
     static int arr[];
