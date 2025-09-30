@@ -1,4 +1,4 @@
-//Implementation of Circular Queue using array
+//code of Implementation of Circular Queue using array
 public class que2{
   static class Queue{
     static int arr[];
