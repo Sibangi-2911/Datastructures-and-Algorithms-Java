@@ -1,4 +1,4 @@
-//Valid Parentheses Code
+//Code for Valid Parentheses 
 import java.util.*;
 public class stack9 {
   public static boolean isValid(String str){
