@@ -1,4 +1,4 @@
-//using the collections framework for stack example
+//code shows using of collections framework for stack example
 import java.util.*;
 public class stack3 {
   public static void main(String args[]){
