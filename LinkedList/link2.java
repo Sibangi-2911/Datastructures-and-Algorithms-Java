@@ -1,4 +1,4 @@
-//remove first and last node from linked list
+//code to remove first and last node from linked list
 public class link2{
   public static class Node{
     int data;
