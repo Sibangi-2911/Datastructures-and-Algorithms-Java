@@ -1,5 +1,4 @@
 //code for creation of linked list with its operations
-
 public class link1 {
   public static class Node{
     int data;
