@@ -1,4 +1,4 @@
-//search for a key in the linked list & return the position where it is found & if not found return -1->O(n)
+//code to search for a key in the linked list & return the position where it is found & if not found return -1->O(n)
 public class link3 {
   public static class Node{
     int data;
