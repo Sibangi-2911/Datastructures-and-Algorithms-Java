@@ -1,4 +1,4 @@
-//Reverse a linkedlist- iterative approach - O(n)
+//Code to Reverse a linkedlist- iterative approach - O(n)
 public class link5 {
   public static class Node{
     int data;
