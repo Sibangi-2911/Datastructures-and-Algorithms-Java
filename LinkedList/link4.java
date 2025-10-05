@@ -1,4 +1,4 @@
-//Recursive search for a key in the linked list & return the position where it is found & if not found return -1 ->O(n)
+//Code for Recursive search for a key in the linked list & return the position where it is found & if not found return -1 ->O(n)
 public class link4 {
   public static class Node{
     int data;
