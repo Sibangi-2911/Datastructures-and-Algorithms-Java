@@ -1,4 +1,4 @@
-//check if a LL is palindrome or not?
+//Code to check if a LL is palindrome or not?
 public class link7 {
   public static class Node{
     int data;
