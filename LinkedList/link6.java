@@ -1,4 +1,4 @@
-//find and remove nth node from end
+//Code to find and remove nth node from end
 public class link6 {
   public static class Node{
     int data;
