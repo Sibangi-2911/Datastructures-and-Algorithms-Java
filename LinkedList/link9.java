@@ -1,4 +1,4 @@
-//Remove a cycle in linked list
+//Code to Remove a cycle in linked list
 public class link9 {
   public static class Node {
     int data;
