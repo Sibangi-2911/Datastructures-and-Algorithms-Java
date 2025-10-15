@@ -1,4 +1,4 @@
-//Detect a loop/cycle in  a LL- Floyd's cycle finding algorithm
+//Code to Detect a loop/cycle in  a LL- Floyd's cycle finding algorithm
 public class link8 {
   public static class Node{
     int data;
