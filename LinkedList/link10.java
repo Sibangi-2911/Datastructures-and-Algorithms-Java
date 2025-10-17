@@ -1,4 +1,4 @@
-//Implementation using Java Collection Framework
+//Code for Implementation using Java Collection Framework
 import java.util.LinkedList;
 public class link10{
   public static void main(String args[]){
