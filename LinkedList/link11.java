@@ -1,4 +1,4 @@
-//Merge sort on LL- O(nlogn)
+//Code for Merge sort on LL- O(nlogn)
 public class link11 {
   public static class Node{
     int data;
