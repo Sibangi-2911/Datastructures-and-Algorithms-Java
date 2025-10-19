@@ -1,4 +1,4 @@
-//zig-zag linked list
+//Code for zig-zag linked list
 public class link12 {
   public static class Node{
     int data;
