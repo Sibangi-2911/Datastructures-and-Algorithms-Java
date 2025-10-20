@@ -1,4 +1,4 @@
-//Doubly linked list
+//Code for Doubly linked list
 public class link13 {
   public class Node{
     int data;
