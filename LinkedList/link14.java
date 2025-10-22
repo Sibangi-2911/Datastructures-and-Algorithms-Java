@@ -1,4 +1,4 @@
-//Code for reverse the doubly linked list
+//Code to reverse the doubly linked list
 public class link14 {
   public class Node{
     int data;
