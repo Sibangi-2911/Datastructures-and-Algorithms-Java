@@ -1,4 +1,4 @@
-//Queue using two stacks
+//Code for Queue using two stacks
 
 import java.util.Queue;
 import java.util.Stack;
