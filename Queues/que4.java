@@ -1,4 +1,4 @@
-//Code for Implementation of Queue using Java Collection Framework with class linked list
+//Code for the Implementation of Queue using Java Collection Framework with class linked list
 import java.util.*;
 public class que4 {
   public static void main(String args[]){
