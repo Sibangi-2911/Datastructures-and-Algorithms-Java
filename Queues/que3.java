@@ -1,4 +1,4 @@
-//Code for Implementation of queue using linked list - O(1)
+//Code for the Implementation of queue using linked list - O(1)
 public class que3 {
   static class Node{
     int data;
