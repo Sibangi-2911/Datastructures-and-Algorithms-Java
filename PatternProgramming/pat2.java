@@ -1,4 +1,4 @@
-//Printing Hollow Square Star Pattern
+//Code for Printing Hollow Square Star Pattern
 import java.util.*;
 public class pat2 {
   public static void main(String args[]){
