@@ -1,3 +1,4 @@
+//to find the max number in an array
 import java.util.*;
 public class maxNumArray {
   public static void main(String args[]){
