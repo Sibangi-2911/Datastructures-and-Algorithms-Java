@@ -1,3 +1,4 @@
+//Code to check number is palindrome or not
 public class PalindromeNumber {
   public static void main(String args[]){
     int num = 121;
