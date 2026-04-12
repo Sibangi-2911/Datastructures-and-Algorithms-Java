@@ -1,3 +1,4 @@
+//QUESTION
 import java.util.*;
 public class QsPractice {
   public static void main(String args[]){
